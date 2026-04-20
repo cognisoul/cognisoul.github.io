@@ -1,29 +1,103 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  text-align: center;
-  background: #f5f5f5;
-}
-
-header {
-  padding: 40px;
-  background: white;
-}
-
-.logo {
-  width: 120px;
-}
-
-h1 {
-  color: #2b5cff;
-}
-
-section {
-  padding: 40px;
-}
-
-footer {
-  background: #222;
+  font-family: 'Segoe UI', sans-serif;
   color: white;
+  background: radial-gradient(circle at top, #1a1a2e, #0f0f1a);
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text span {
+  color: #4cc9f0;
+}
+
+.hero-text .feel {
+  color: #ff6b6b;
+}
+
+.hero-text p {
+  opacity: 0.8;
+  margin: 20px 0;
+}
+
+/* Buttons */
+.btn {
+  background: linear-gradient(45deg, #4cc9f0, #ff6b6b);
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/* Floating logo */
+.floating {
+  width: 300px;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* About */
+.about {
+  text-align: center;
+  padding: 60px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
   padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.5;
 }

@@ -315,3 +315,46 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at 30% 30%, rgba(76,201,240,0.15), transparent),
+              radial-gradient(circle at 70% 70%, rgba(255,107,107,0.15), transparent);
+  animation: moveBg 15s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveBg {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(-10%, -10%); }
+  100% { transform: translate(0,0); }
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover,
+.step:hover,
+.target li:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(15,15,26,0.6);
+  z-index: 100;
+}

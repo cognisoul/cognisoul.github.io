@@ -1,31 +1,47 @@
-body {
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
   margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Segoe UI', sans-serif;
   color: white;
   background: radial-gradient(circle at top, #1a1a2e, #0f0f1a);
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-/* CONTAINER GLOBAL */
+/* CONTAINER */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(15,15,26,0.6);
+  z-index: 100;
+  width: 100%;
 }
 
 .navbar h2 {
   margin: 0;
 }
 
-/* Hero */
+/* HERO */
 .hero {
   display: flex;
   align-items: center;
@@ -57,7 +73,7 @@ body {
   line-height: 1.6;
 }
 
-/* Buttons */
+/* BUTTONS */
 .btn {
   background: linear-gradient(45deg, #4cc9f0, #ff6b6b);
   border: none;
@@ -65,6 +81,9 @@ body {
   color: white;
   border-radius: 10px;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
 }
 
 .btn-outline {
@@ -76,7 +95,19 @@ body {
   margin-left: 10px;
 }
 
-/* HERO IMAGE FIX (ANTI GEPENG) */
+/* HANYA BUTTON DI HERO YANG FULL */
+.buttons .btn,
+.buttons .btn-outline {
+  width: 100%;
+}
+
+/* NAVBAR BUTTON FIX */
+.navbar .btn {
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* HERO IMAGE */
 .hero-image {
   display: flex;
   justify-content: center;
@@ -89,11 +120,10 @@ body {
   object-fit: contain;
 }
 
-/* Floating logo */
+/* FLOATING LOGO */
 .floating {
   width: 260px;
-  height: auto;
-  animation: float 4s ease-in-out infinite;
+  animation: float 4s ease-in-out infinite, glow 3s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -101,7 +131,12 @@ body {
   50% { transform: translateY(-20px); }
 }
 
-/* About */
+@keyframes glow {
+  0%,100% { filter: drop-shadow(0 0 10px rgba(76,201,240,0.4)); }
+  50% { filter: drop-shadow(0 0 25px rgba(255,107,107,0.6)); }
+}
+
+/* ABOUT */
 .about {
   text-align: center;
   padding: 60px 0;
@@ -109,7 +144,7 @@ body {
   margin: auto;
 }
 
-/* Cards */
+/* CARDS */
 .cards {
   display: flex;
   justify-content: center;
@@ -124,101 +159,16 @@ body {
   padding: 20px;
   border-radius: 20px;
   width: 240px;
-  transition: 0.3s;
   text-align: center;
+  transition: 0.3s;
 }
 
 .card:hover {
-  transform: translateY(-10px) scale(1.05);
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 30px 0;
-  opacity: 0.5;
-}
-
-/* ================= RESPONSIVE ================= */
-
-/* Tablet */
-@media (max-width: 1024px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .floating {
-    width: 220px;
-  }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-
-  .navbar {
-    padding: 15px 0;
-  }
-
-  .navbar h2 {
-    font-size: 1.2rem;
-  }
-
-  .btn {
-    padding: 10px 14px;
-    font-size: 0.8rem;
-  }
-
-  .hero {
-    padding: 40px 0;
-  }
-
-  .hero-text h1 {
-    font-size: 2rem;
-  }
-
-  .hero-text p {
-    font-size: 0.9rem;
-  }
-
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .btn, .btn-outline {
-    width: 100%;
-    margin: 0;
-  }
-
-  .floating {
-    width: 180px;
-  }
-
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 320px;
-  }
-}
-
-/* Small mobile */
-@media (max-width: 480px) {
-  .hero-text h1 {
-    font-size: 1.6rem;
-  }
-
-  .floating {
-    width: 150px;
-  }
-}
-
-/* ===== PROCESS ===== */
+/* PROCESS */
 .process {
   text-align: center;
   padding: 60px 0;
@@ -238,15 +188,14 @@ footer {
   padding: 20px;
   border-radius: 20px;
   width: 220px;
-  text-align: center;
   transition: 0.3s;
 }
 
 .step:hover {
-  transform: translateY(-8px);
+  transform: translateY(-10px);
 }
 
-/* ===== TARGET ===== */
+/* TARGET */
 .target {
   padding: 60px 0;
   text-align: center;
@@ -271,7 +220,7 @@ footer {
   transform: scale(1.02);
 }
 
-/* ===== CASE STUDY ===== */
+/* CASE STUDY */
 .case-study {
   padding: 60px 0;
   text-align: center;
@@ -287,7 +236,7 @@ footer {
   line-height: 1.6;
 }
 
-/* ===== CTA ===== */
+/* CTA */
 .cta {
   text-align: center;
   padding: 80px 20px;
@@ -305,34 +254,14 @@ footer {
   margin: 15px 0 25px;
 }
 
-/* ===== BUTTON HOVER UPGRADE ===== */
-.btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(76,201,240,0.3);
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  opacity: 0.5;
 }
 
-/* ===== SMOOTH SCROLL ===== */
-html {
-  scroll-behavior: smooth;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle at 30% 30%, rgba(76,201,240,0.15), transparent),
-              radial-gradient(circle at 70% 70%, rgba(255,107,107,0.15), transparent);
-  animation: moveBg 15s linear infinite;
-  z-index: -1;
-}
-
-@keyframes moveBg {
-  0% { transform: translate(0,0); }
-  50% { transform: translate(-10%, -10%); }
-  100% { transform: translate(0,0); }
-}
-
+/* SCROLL ANIMATION */
 .hidden {
   opacity: 0;
   transform: translateY(40px);
@@ -344,40 +273,92 @@ body::before {
   transform: translateY(0);
 }
 
-.card:hover,
-.step:hover,
-.target li:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+/* BACKGROUND ANIMATION */
+body::before {
+  content: "";
+  position: fixed;
+  width: 200%;
+  height: 200%;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(76,201,240,0.15), transparent),
+    radial-gradient(circle at 70% 70%, rgba(255,107,107,0.15), transparent);
+  animation: moveBg 15s linear infinite;
+  z-index: -1;
 }
 
-.navbar {
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(10px);
-  background: rgba(15,15,26,0.6);
-  z-index: 100;
+@keyframes moveBg {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(-10%, -10%); }
+  100% { transform: translate(0,0); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .floating {
+    width: 220px;
+  }
 }
 
 @media (max-width: 768px) {
 
   .navbar {
     padding: 12px 0;
-    gap: 10px;
   }
 
   .navbar h2 {
     font-size: 1.1rem;
-    white-space: nowrap; /* cegah turun ke bawah */
+    white-space: nowrap;
   }
 
   .navbar .btn {
-    padding: 8px 12px;
     font-size: 0.75rem;
-    white-space: nowrap;
+    padding: 8px 12px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .floating {
+    width: 180px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
   }
 }
 
-* {
-  box-sizing: border-box;
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .floating {
+    width: 150px;
+  }
 }

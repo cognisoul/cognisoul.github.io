@@ -1,18 +1,19 @@
 // Scroll fade-in
-const cards = document.querySelectorAll('.card');
+const elements = document.querySelectorAll(
+  '.card, .step, .target li, .case, .cta, .about'
+);
 
-window.addEventListener('scroll', () => {
-  cards.forEach(card => {
-    const top = card.getBoundingClientRect().top;
-    if (top < window.innerHeight - 50) {
-      card.style.opacity = 1;
-      card.style.transform = "translateY(0)";
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
     }
   });
+}, {
+  threshold: 0.15
 });
 
-// Initial state
-cards.forEach(card => {
-  card.style.opacity = 0;
-  card.style.transform = "translateY(40px)";
+elements.forEach(el => {
+  el.classList.add('hidden');
+  observer.observe(el);
 });

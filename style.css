@@ -362,3 +362,17 @@ body::before {
     width: 150px;
   }
 }
+
+.signature-strip {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.signature-strip:hover {
+  opacity: 1;
+  transition: 0.3s ease;
+}

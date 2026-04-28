@@ -195,6 +195,14 @@ html, body {
   transform: translateY(-10px);
 }
 
+.stamp-points {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+
 /* TARGET */
 .target {
   padding: 60px 0;

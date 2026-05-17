@@ -27,18 +27,28 @@
 <meta name="twitter:description" content="Strategi branding berbasis aktivitas nyata untuk visibilitas digital yang lebih kuat.">
 <meta name="twitter:image" content="https://cognisoul.my.id/assets/images/logo-cognisoul.png">
 
-<!-- SCHEMA: ORGANIZATION + WEBSITE + LOCAL BUSINESS -->
+<!-- SCHEMA: ORGANIZATION + WEBSITE + LOCAL BUSINESS + SOCIAL MEDIA -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "Organization",
+      "@id": "https://cognisoul.my.id/#organization",
       "name": "Cognisoul",
       "url": "https://cognisoul.my.id/",
-      "logo": "https://cognisoul.my.id/assets/images/logo-cognisoul.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cognisoul.my.id/assets/images/logo-cognisoul.png"
+      },
       "description": "Cognisoul adalah layanan digital branding yang membantu bisnis membangun identitas melalui aktivitas nyata, narasi terstruktur, dan visibilitas digital.",
       "sameAs": [
+        "https://www.instagram.com/cognisoul.id/",
+        "https://medium.com/@cognisoul.id",
+        "https://about.me/cognisoul",
+        "https://cognisoul.netlify.app/",
+        "https://independentresearcher.academia.edu/CognisoulDigitalBranding",
         "https://wa.me/6285174223650",
         "https://gunawansatyakusuma.my.id/",
         "https://gloop.my.id/"
@@ -48,32 +58,84 @@
         "telephone": "+62-851-7422-3650",
         "contactType": "customer service",
         "areaServed": "ID",
-        "availableLanguage": "Indonesian"
+        "availableLanguage": [
+          "Indonesian",
+          "English"
+        ]
       }
     },
+
     {
       "@type": "WebSite",
+      "@id": "https://cognisoul.my.id/#website",
       "name": "Cognisoul",
       "url": "https://cognisoul.my.id/",
+      "publisher": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://cognisoul.my.id/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     },
+
     {
       "@type": "LocalBusiness",
+      "@id": "https://cognisoul.my.id/#localbusiness",
       "name": "Cognisoul",
       "image": "https://cognisoul.my.id/assets/images/logo-cognisoul.png",
       "url": "https://cognisoul.my.id/",
       "telephone": "+62-851-7422-3650",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Bandung",
+        "addressRegion": "Jawa Barat",
         "addressCountry": "ID"
       },
-      "areaServed": "Bandung"
+      "areaServed": [
+        "Bandung",
+        "Indonesia"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/cognisoul.id/"
+      ]
+    },
+
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://www.instagram.com/p/DXzKtPUAYVX/",
+      "mainEntityOfPage": "https://www.instagram.com/p/DXzKtPUAYVX/",
+      "headline": "Cognisoul Digital Branding",
+      "articleBody": "Posting Instagram Cognisoul terkait digital branding, visibilitas digital, dan identitas bisnis lintas platform.",
+      "datePublished": "2026-05-18",
+      "author": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "publisher": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Digital Branding"
+        },
+        {
+          "@type": "Thing",
+          "name": "Visibility Digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Personal Branding"
+        }
+      ],
+      "sharedContent": {
+        "@type": "WebPage",
+        "url": "https://cognisoul.my.id/"
+      }
     }
+
   ]
 }
 </script>

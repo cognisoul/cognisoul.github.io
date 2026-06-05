@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jejak Kolaborasi Cognisoul</title>
+
+<meta name="description" content="Dokumentasi aktivitas, publikasi, proyek, dan kolaborasi yang pernah dilakukan Cognisoul sebagai bagian dari pengembangan identitas digital dan visibilitas online.">
+
+<link rel="canonical" href="https://cognisoul.my.id/jejak-kolaborasi/">
+
+<meta property="og:title" content="Jejak Kolaborasi Cognisoul">
+<meta property="og:description" content="Arsip aktivitas, proyek, publikasi, dan kolaborasi Cognisoul.">
+<meta property="og:url" content="https://cognisoul.my.id/jejak-kolaborasi/">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="../style.css">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"CollectionPage",
+  "name":"Jejak Kolaborasi Cognisoul",
+  "url":"https://cognisoul.my.id/jejak-kolaborasi/",
+  "description":"Dokumentasi aktivitas, proyek, publikasi, dan kolaborasi Cognisoul.",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Cognisoul",
+    "url":"https://cognisoul.my.id/"
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar container">
+  <h2>Cognisoul</h2>
+  <p>Digital Branding</p>
+
+  <a href="/" class="btn">
+    Beranda
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero container">
+
+  <div class="hero-text">
+
+    <h1>
+      Jejak <span>Kolaborasi</span> dan Aktivitas
+    </h1>
+
+    <p>
+      Halaman ini mendokumentasikan berbagai aktivitas,
+      proyek, publikasi, dokumentasi visual, dan kolaborasi
+      yang pernah dilakukan sebagai bagian dari pengembangan
+      identitas digital berbasis aktivitas nyata.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- INTRO -->
+<section class="about container">
+
+  <h2>Dari Aktivitas Menjadi Jejak Digital</h2>
+
+  <p>
+    Setiap aktivitas yang dilakukan tidak berhenti sebagai
+    kegiatan sesaat. Dokumentasi, publikasi, dan narasi yang
+    dihasilkan menjadi bagian dari jejak digital yang dapat
+    ditelusuri, dipahami, dan dikembangkan secara berkelanjutan.
+  </p>
+
+</section>
+
+<!-- KATEGORI -->
+<section class="cards container">
+
+  <div class="card">
+    <h3>Digital Branding</h3>
+    <p>
+      Pengembangan identitas digital berbasis aktivitas nyata
+      dan narasi yang terstruktur.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Dokumentasi Visual</h3>
+    <p>
+      Fotografi, videografi, dan dokumentasi aerial sebagai
+      fondasi narasi digital.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Publikasi Digital</h3>
+    <p>
+      Artikel, studi kasus, dan dokumentasi yang memperkuat
+      visibilitas digital.
+    </p>
+  </div>
+
+</section>
+
+<!-- TIMELINE -->
+<section class="process container">
+
+<h2>Jejak Aktivitas</h2>
+
+<div class="steps">
+
+<div class="step">
+<h3>2025</h3>
+<p>
+Pendampingan branding dan dokumentasi aktivitas UMKM
+berbasis aktivitas nyata.
+</p>
+</div>
+
+<div class="step">
+<h3>2025</h3>
+<p>
+Publikasi artikel digital branding dan pengembangan
+narasi digital lintas platform.
+</p>
+</div>
+
+<div class="step">
+<h3>2026</h3>
+<p>
+Kolaborasi dokumentasi visual untuk mendukung
+visibilitas bisnis dan personal branding.
+</p>
+</div>
+
+<div class="step">
+<h3>2026</h3>
+<p>
+Pengembangan G-Loop Visibility Advisory sebagai
+framework observasi visibilitas digital.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- HIGHLIGHT -->
+<section class="cards container">
+
+<div class="card">
+
+<h3>G-Loop Visibility Advisory</h3>
+
+<p>
+Pengembangan framework yang menghubungkan aktivitas nyata,
+dokumentasi, narasi digital, dan keterbacaan AI menjadi
+siklus observasi yang terstruktur.
+</p>
+
+<a href="https://gloop.my.id/" target="_blank" rel="noopener" class="btn">
+Lihat Referensi
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Dokumentasi Visual</h3>
+
+<p>
+Kolaborasi dokumentasi melalui fotografi, videografi,
+dan aerial drone untuk memperkuat identitas digital.
+</p>
+
+<a href="https://gunawansatyakusuma.my.id/" target="_blank" rel="noopener" class="btn">
+Lihat Dokumentasi
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Publikasi Branding</h3>
+
+<p>
+Produksi artikel dan studi kasus mengenai branding,
+visibility, dokumentasi, dan narasi digital.
+</p>
+
+</div>
+
+</section>
+
+<!-- PROYEK -->
+<section class="target container">
+
+<h2>Ruang Kolaborasi yang Pernah Dilakukan</h2>
+
+<ul>
+<li>Digital Branding</li>
+<li>Dokumentasi Visual</li>
+<li>Personal Branding</li>
+<li>UMKM Development</li>
+<li>Publikasi Artikel</li>
+<li>Visibility Advisory</li>
+<li>Knowledge Graph dan Entity Visibility</li>
+</ul>
+
+</section>
+
+<!-- CTA -->
+<section class="cta container">
+
+<h2>Aktivitas Terus Bertambah</h2>
+
+<p>
+Halaman ini akan terus diperbarui seiring bertambahnya
+proyek, dokumentasi, publikasi, dan kolaborasi yang
+menjadi bagian dari perjalanan Cognisoul.
+</p>
+
+<div class="cta-buttons">
+
+<a href="https://wa.me/6285174223650"
+target="_blank"
+rel="noopener"
+class="btn">
+Hubungi Cognisoul
+</a>
+
+<a href="/"
+class="btn btn-map">
+Kembali ke Beranda
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<p>
+© 2026 Cognisoul. Semua hak dilindungi.
+</p>
+
+</footer>
+
+<!-- SIGNATURE STRIP -->
+<div class="signature-strip">
+⚡ #NodeCogniSoul #CogniSoulLoop #CogniSoulMemory |
+"Part of G-Loop Visibility Advisory by NodeGunawan"
+</div>
+
+<script src="../script.js"></script>
+
+</body>
+</html>

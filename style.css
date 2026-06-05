@@ -84,6 +84,7 @@ html, body {
   text-decoration: none;
   display: inline-block;
   transition: 0.3s;
+  margin-bottom: 15px;
 }
 
 .btn-outline {

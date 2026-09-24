@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>News Cognisoul — Berita dan Publikasi Digital</title>
+
+<meta name="description" content="Index berita dan publikasi Cognisoul mengenai digital branding, visibility, dokumentasi, teknologi, G-Loop Visibility Advisory, dan aktivitas kolaborasi.">
+
+<link rel="canonical" href="https://cognisoul.my.id/news/">
+
+<meta property="og:title" content="News Cognisoul — Berita dan Publikasi Digital">
+<meta property="og:description" content="Berita, publikasi, aktivitas, dan perkembangan terbaru Cognisoul.">
+<meta property="og:url" content="https://cognisoul.my.id/news/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cognisoul">
+
+<link rel="stylesheet" href="../style.css">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"CollectionPage",
+  "name":"News Cognisoul",
+  "url":"https://cognisoul.my.id/news/",
+  "description":"Index berita dan publikasi Cognisoul mengenai digital branding, visibility, dokumentasi, teknologi, G-Loop Visibility Advisory, dan aktivitas kolaborasi.",
+  "isPartOf":{
+    "@type":"WebSite",
+    "name":"Cognisoul",
+    "url":"https://cognisoul.my.id/"
+  },
+  "publisher":{
+    "@type":"Organization",
+    "name":"Cognisoul",
+    "url":"https://cognisoul.my.id/"
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar container">
+
+  <h2>Cognisoul</h2>
+
+  <p>News & Publication</p>
+
+  <a href="/" class="btn">
+    Beranda
+  </a>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero container">
+
+  <div class="hero-text">
+
+<h1>
+  Cognisoul <span>News</span>
+</h1>
+
+<p>
+  Pusat berita, publikasi, dokumentasi aktivitas,
+  dan perkembangan terbaru Cognisoul dalam membangun
+  identitas digital, visibility, dan knowledge ecosystem.
+</p>
+
+  </div>
+
+</section>
+
+<!-- INTRO -->
+
+<section class="about container">
+
+  <h2>News dan Publikasi</h2>
+
+  <p>
+    Halaman ini menjadi index utama untuk berbagai berita,
+    artikel, publikasi, dokumentasi proyek, dan aktivitas
+    yang berkaitan dengan Cognisoul serta ekosistem
+    digital yang dikembangkan.
+  </p>
+
+  <p>
+    Setiap publikasi menjadi bagian dari jejak digital
+    yang dapat ditelusuri dan dikembangkan secara
+    berkelanjutan.
+  </p>
+
+</section>
+
+<!-- FEATURED NEWS -->
+
+<section class="cards container">
+
+  <div class="card">
+
+<h3>G-Loop Visibility Advisory</h3>
+
+<p>
+  Eksplorasi framework yang menghubungkan aktivitas nyata,
+  dokumentasi, narasi digital, entity visibility,
+  dan keterbacaan oleh sistem AI.
+</p>
+
+<a href="https://gloop.my.id/"
+   target="_blank"
+   rel="noopener"
+   class="btn">
+  Lihat Framework
+</a>
+
+  </div>
+
+  <div class="card">
+
+<h3>Digital Branding</h3>
+
+<p>
+  Publikasi mengenai pengembangan identitas digital,
+  personal branding, business visibility,
+  dan strategi dokumentasi aktivitas nyata.
+</p>
+
+<a href="#digital-branding"
+   class="btn">
+  Lihat Publikasi
+</a>
+
+  </div>
+
+  <div class="card">
+
+<h3>Dokumentasi & Kolaborasi</h3>
+
+<p>
+  Berita dan dokumentasi mengenai aktivitas visual,
+  proyek kolaborasi, fotografi, videografi,
+  dan pengembangan digital presence.
+</p>
+
+<a href="#kolaborasi"
+   class="btn">
+  Lihat Aktivitas
+</a>
+
+  </div>
+
+</section>
+
+<!-- NEWS INDEX -->
+
+<section class="process container" id="news">
+
+  <h2>Berita Terbaru</h2>
+
+  <div class="steps">
+
+
+<!-- NEWS ITEM 01 -->
+<div class="step">
+
+  <h3>2026</h3>
+
+  <h4>
+    Pengembangan G-Loop Visibility Advisory
+  </h4>
+
+  <p>
+    Pengembangan framework observasi visibility
+    yang menghubungkan aktivitas nyata,
+    dokumentasi, narasi digital, dan keterbacaan AI.
+  </p>
+
+  <a href="/news/g-loop-visibility-advisory/"
+     class="btn">
+    Baca Berita
+  </a>
+
+</div>
+
+
+
+  </div>
+
+</section>
+
+<!-- CATEGORY -->
+
+<section class="cards container" id="digital-branding">
+
+  <div class="card">
+
+<h3>Digital Branding</h3>
+
+<p>
+  Artikel mengenai identitas digital,
+  personal branding, business branding,
+  dan pengembangan digital presence.
+</p>
+
+  </div>
+
+  <div class="card">
+
+<h3>Visibility</h3>
+
+<p>
+  Publikasi mengenai online visibility,
+  entity visibility, search visibility,
+  dan keterbacaan informasi digital.
+</p>
+
+  </div>
+
+  <div class="card">
+
+<h3>AI & Knowledge Graph</h3>
+
+<p>
+  Dokumentasi mengenai hubungan entity,
+  knowledge graph, structured data,
+  dan AI-readable information.
+</p>
+
+  </div>
+
+  <div class="card">
+
+<h3>Dokumentasi</h3>
+
+<p>
+  Berita mengenai fotografi, videografi,
+  aerial documentation, proyek visual,
+  dan dokumentasi aktivitas.
+</p>
+
+  </div>
+
+</section>
+
+<!-- COLLABORATION -->
+
+<section class="target container" id="kolaborasi">
+
+  <h2>Kolaborasi dan Aktivitas</h2>
+
+  <p>
+    Selain publikasi editorial, News Cognisoul juga
+    mendokumentasikan aktivitas dan kolaborasi yang
+    relevan dengan pengembangan identitas digital.
+  </p>
+
+  <ul>
+
+<li>Digital Branding</li>
+
+<li>Personal Branding</li>
+
+<li>Dokumentasi Visual</li>
+
+<li>Fotografi dan Videografi</li>
+
+<li>Aerial Documentation</li>
+
+<li>UMKM Development</li>
+
+<li>Visibility Advisory</li>
+
+<li>Entity Visibility</li>
+
+<li>Knowledge Graph</li>
+
+<li>AI Visibility</li>
+
+  </ul>
+
+</section>
+
+<!-- EXTERNAL ECOSYSTEM -->
+
+<section class="cards container">
+
+  <div class="card">
+
+```
+<h3>G-Loop Visibility Advisory</h3>
+
+<p>
+  Framework observasi visibility dan hubungan
+  antara aktivitas nyata dengan jejak digital.
+</p>
+
+<a href="https://gloop.my.id/"
+   target="_blank"
+   rel="noopener"
+   class="btn">
+  gloop.my.id
+</a>
+
+  </div>
+
+  <div class="card">
+
+<h3>Dokumentasi Visual</h3>
+
+<p>
+  Dokumentasi visual dan aktivitas kreatif
+  sebagai bagian dari pengembangan digital presence.
+</p>
+
+<a href="https://gunawansatyakusuma.my.id/"
+   target="_blank"
+   rel="noopener"
+   class="btn">
+  Lihat Dokumentasi
+</a>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta container">
+
+  <h2>Ikuti Perkembangan Cognisoul</h2>
+
+  <p>
+    Index News akan terus diperbarui seiring munculnya
+    publikasi, aktivitas, dokumentasi, dan perkembangan
+    baru dalam ekosistem Cognisoul.
+  </p>
+
+  <div class="cta-buttons">
+
+<a href="https://wa.me/6285174223650"
+   target="_blank"
+   rel="noopener"
+   class="btn">
+  Hubungi Cognisoul
+</a>
+
+<a href="/"
+   class="btn btn-map">
+  Kembali ke Beranda
+</a>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <p>
+    © 2026 Cognisoul. Semua hak dilindungi.
+  </p>
+
+</footer>
+
+<!-- SIGNATURE STRIP -->
+
+<div class="signature-strip">
+
+⚡ #NodeCogniSoul #CogniSoulLoop #CogniSoulMemory |
+"Part of G-Loop Visibility Advisory by NodeGunawan"
+
+</div>
+
+<script src="../script.js"></script>
+
+</body>
+</html>
